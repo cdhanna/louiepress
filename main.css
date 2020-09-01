@@ -1,3 +1,11 @@
-div.test {
-    font-size: 40px;
+html, body {
+    height:100%;
+} 
+
+body {
+    background-color: #3C81EE;
+    background-image: url('https://cdhanna.github.io/louiepress/images/background.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
 }
