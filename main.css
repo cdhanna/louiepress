@@ -59,6 +59,14 @@ div.fake.contact {
     text-indent: 0;
     font-weight:bold;
     text-shadow: 4px 4px black;
+    color: white;
+    margin-bottom: 44px;
+}
+div.fake.contact p {
+    padding: 12 0;
+}
+div.fake.contact iframe {
+    box-shadow: 3px 4px 0px black, 1px 1px 7px -1px black;
 }
 
 .gifs {
