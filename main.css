@@ -37,6 +37,10 @@ div:not(.fake) {
     margin: 24px 0px;
 
 }
+div.main {
+    line-height: 1.4;
+    font-size: 24px;
+}
 
 /* unvisited link */
 a:link {
@@ -132,8 +136,9 @@ iframe.steam .game_purchase_action_bg.coming_soon {
         margin: 0px 12px;
     }
 }
-/* @media only screen and (max-width: 500px) {
-    .videoWrapper {
-        height: 80vh;
+@media only screen and (max-width: 500px) {
+    div.main {
+        line-height: 1.2;
+        font-size: 18px;
     }
-} */
+}
