@@ -3,6 +3,14 @@
     src: url("https://cdhanna.github.io/louiepress/fonts/KOMIKAX_.ttf");
 }
 
+
+@media only screen and (max-width: 500px) {
+    body {
+        margin: 0px 12px;
+    }
+}
+
+
 html, body {
     height:100%;
     font-family: 'Grandstander';
