@@ -37,22 +37,28 @@ div:not(.fake) {
 
 /* unvisited link */
 a:link {
-color: red;
+color: #62bbff;
 }
 
 /* visited link */
 a:visited {
-color: green;
+color: #62bbff;
 }
 
 /* mouse over link */
 a:hover {
-color: hotpink;
+color: #feac04;
 }
 
 /* selected link */
 a:active {
-color: blue;
+color: #526ee0;
+}
+
+div.fake.contact {
+    text-indent: 0;
+    font-weight:bold;
+    text-shadow: 4px 4px black;
 }
 
 .gifs {
@@ -64,7 +70,7 @@ color: blue;
 .gif {
     box-shadow: 5px 7px 0px black, 3px 3px 7px -1px black;
     margin: 12px;
-
+    height: 16vw;
 }
 h2, 
 h4 {
