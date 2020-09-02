@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "mainFont";
+    font-family: 'Grandstander', cursive;
     src: url("https://cdhanna.github.io/louiepress/fonts/KOMIKAX_.ttf");
 }
 
@@ -27,7 +27,6 @@ div:not(.fake) {
     padding: 24px 12px;
     color: white;
     text-shadow: 2px 2px 0px black;
-    font-family: cursive;
     font-size: 18px;
     margin: 24px 0px;
 
@@ -40,8 +39,13 @@ div:not(.fake) {
     flex-flow: wrap;
 }
 .gif {
-    margin: 12px;
     box-shadow: 5px 7px 0px black, 3px 3px 7px -1px black;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 h2, 
 h4 {
@@ -75,7 +79,7 @@ iframe.steam .game_purchase_action_bg.coming_soon {
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
+    height: 45vh;
     margin-bottom: 0px;
 }
 
@@ -86,3 +90,14 @@ iframe.steam .game_purchase_action_bg.coming_soon {
     width: 100%;
     height: 100%;
 }
+
+.gifWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    max-height: 306px;
+    margin-bottom: 0px;
+    margin: 12px;
+
+}
+
+/* 512x306 */
