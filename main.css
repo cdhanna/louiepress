@@ -4,11 +4,6 @@
 }
 
 
-@media only screen and (max-width: 500px) {
-    body {
-        margin: 0px 12px;
-    }
-}
 
 
 html, body {
@@ -93,7 +88,6 @@ h4 {
     color: white;
     text-shadow: 2px 2px 0px black;
     font-weight: bold;
-    font-family: cursive;
 }
 img {
     max-width: 100%
@@ -134,3 +128,13 @@ iframe.steam .game_purchase_action_bg.coming_soon {
 
 
 /* 512x306 */
+@media only screen and (max-width: 500px) {
+    body {
+        margin: 0px 12px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .videoWrapper {
+        height: 80vh;
+    }
+}
