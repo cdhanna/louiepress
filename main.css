@@ -119,6 +119,7 @@ iframe.steam .game_purchase_action_bg.coming_soon {
     padding-bottom: 56.25%; /* 16:9 */
     height: calc(100% - 24vh - 240px);
     margin-bottom: 0px;
+    min-height: 200px;
 }
 
 .videoWrapper iframe {
