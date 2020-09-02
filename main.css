@@ -18,7 +18,10 @@ html {
 body {
     margin: 0px 20%;
 }
-
+p {
+    text-indent: 60px;
+    padding: 0 20px;
+}
 div:not(.fake) {
     background: #20519d;
     border-radius: 1px;
@@ -30,6 +33,26 @@ div:not(.fake) {
     font-size: 18px;
     margin: 24px 0px;
 
+}
+
+/* unvisited link */
+a:link {
+color: red;
+}
+
+/* visited link */
+a:visited {
+color: green;
+}
+
+/* mouse over link */
+a:hover {
+color: hotpink;
+}
+
+/* selected link */
+a:active {
+color: blue;
 }
 
 .gifs {
